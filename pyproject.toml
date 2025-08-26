@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mmplot"
+version = "0.1.0"
+description = "Plotting library for Mueller matrices"
+readme = "README.md"
+authors = [{name = "Davide Scandella", email = "dav.scandella@gmail.com"}]
+license = {text = "MIT"}
+dependencies = ["numpy>=1.21.0", "matplotlib>=3.4.0"]
+requires-python = ">=3.9"
